@@ -16,13 +16,13 @@
         - 2.2.1) Style Matrix --> `gram_matrix`
         - 2.2.2) Style Cost --> `compute_layer_style_cost`
         - 2.2.3) Style Weights --> `compute_style_cost`
-    2.3) **Defining the Total Cost to Optimize** --> `total_cost`
+    - 2.3) **Defining the Total Cost to Optimize** --> `total_cost`
 3. **Solving the Optimization Problem:**
-    3.1) Load the Content Image
-    3.2) Load the Style Image
-    3.3) Randomly Initialize the Image to be Generated
-    3.4) Load Pre-trained VGG19 Model
-    3.5) Compute Total Cost
+   - 3.1) Load the Content Image
+   - 3.2) Load the Style Image
+   - 3.3) Randomly Initialize the Image to be Generated
+   - 3.4) Load Pre-trained VGG19 Model
+   - 3.5) Compute Total Cost
         - 3.5.1) Compute Content Cost
         - 3.5.2) Compute Style Cost --> `train_step`
-    3.6) Train the Model
+   - 3.6) Train the Model
