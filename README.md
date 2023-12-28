@@ -9,10 +9,10 @@
 ### steps followed by code:
 1. **Transfer Learning**
 2. **Neural Style Transfer (NST):**
-    2.1) **Computing the Content Cost:**
+   - 2.1) **Computing the Content Cost:**
         - 2.1.1) Make Generated Image G Match the Content of ImageC
         - 2.1.2) Content Cost Function 𝐽𝑐𝑜𝑛𝑡𝑒𝑛𝑡(𝐶,𝐺) --> `compute_content_cost`
-    2.2) **Computing the Style Cost**
+   - 2.2) **Computing the Style Cost**
         - 2.2.1) Style Matrix --> `gram_matrix`
         - 2.2.2) Style Cost --> `compute_layer_style_cost`
         - 2.2.3) Style Weights --> `compute_style_cost`
